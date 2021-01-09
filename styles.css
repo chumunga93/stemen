@@ -1,0 +1,276 @@
+* {margin: 0;
+padding: 0;}
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+.column img {
+      filter: grayscale(0) brightness(1);
+    }
+  }
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    font-family: 'Racing Sans One', cursive;
+}
+
+nav {
+    position: fixed;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 20px;
+}
+
+.navbar a {
+    margin-inline: 0.5em;
+    text-decoration: none;
+    }
+
+.nav-link:hover {
+    color: rgb(235, 138, 103) !important;
+}
+
+
+.dropdown-menu a{
+    color: rgb(43, 57, 98);
+    text-decoration: none;
+    margin: 0;
+    }
+
+.carousel {
+    height: 900px;
+    background-color: rgb(26, 26, 26);
+    }
+      
+.carousel-item, .carousel-inner, .carousel-inner img {
+    height: 100%;
+    width: auto;
+    object-fit: cover; 
+    overflow: hidden;
+    }
+      
+.carousel-item {
+    text-align: center
+    }
+.carousel-caption p {
+    text-align: center;
+    font-family: 'Jockey One', sans-serif;
+    color: #7fb2e2
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 25px;
+    color: #203d5a
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 35px;
+    color: #5ba1e2
+}
+#coleccion {
+    margin-top: 0%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color:#d1e1ff;
+    width: 100%;
+    border-radius: 10px;
+}
+.yt{
+    padding: 1em;
+}
+.piedefoto { 
+    font-size: 18pt;
+    font-family: 'Jost', sans-serif;
+    color: rgb(90, 50, 0);
+    margin-top: 0%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    }
+
+.column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+    }
+      
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+    }
+
+.column img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;;
+    }
+.smol {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 17px;
+    color: rgb(43, 57, 98);
+    margin-left: 2em;
+    }
+
+#servicios {
+    background-color:  #d1e1ff;
+    border-radius: 10px;
+}
+
+.serv {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.serv p {
+    text-align: center;
+}
+
+.infocontacto {
+    color: rgb(90, 50, 0);
+    font-size: 20;
+    margin-left: 2em;
+    font-family: 'Jost', sans-serif;
+    padding: 1em;
+}
+
+.estallido {
+    background-color: rgb(165, 123, 119);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.astrofoto {
+    background-color: rgb(159, 127, 179);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.paisajitos {
+    background-color: rgb(139, 184, 150);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ofertaimpresion {
+    font-size: 17pt;
+    font-family: 'Jost', sans-serif;
+    color: rgb(90, 50, 0);
+    width: 100%;
+    padding-top: 11%;
+}
+.ofertaimpresion h2 {
+    padding-top: 1em;
+}
+
+.fineart p {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2em;
+   }
+
+.trovicel p {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2em;
+}
+
+.fineart {
+    background-color: rgb(226, 157, 111);
+}
+.trovicel {
+    background-color: rgb(187, 143, 92);
+
+}
+.fotoperfil {
+    margin: 2em;
+    height: 600;
+    width: 300;
+    float: left;
+}
+.fotoperfil img {
+    padding: 1em;
+    border: dashed; color: rgb(200, 53, 0);
+}
+
+.sobremi {
+    padding-top: 11%;
+}
+.sobremi p {
+    margin-top: 7em;
+}
+
+.yutub {
+display: flex;
+justify-content: center;
+width: 100%;}
+
+.contacto {
+    background-color: rgb(110, 122, 177);
+}
+
+.contacto h2 {
+    padding: 1em;
+}
+#servicios h2 {
+    padding: 1em;
+}
+.card:hover {
+    filter: grayscale(0) brightness(1);
+    transition: 0.3s linear;
+    transform: scale(1.02);
+}
+
+.card {
+    padding: 4em;
+    justify-content: space-between;
+    filter: grayscale(1);
+    border-radius: 5px;
+}
+
+.card p {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 17px;
+}
+
+.redsocial p{
+    padding: 1rem;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 27px;
+    color: rgb(43, 57, 98);
+}
+.formulario p{
+    padding: 1rem;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 27px;
+    color: rgb(43, 57, 98);
+}
+
+.redsocial {
+    padding: 1rem;
+    margin-left: 3rem;
+}
